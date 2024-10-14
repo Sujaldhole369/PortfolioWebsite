@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Server</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="header__link" href="#featured">Work</a>
+        </li>
+        <li>
+          <a class="header__link" href="#contact">Contact</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <button id="theme-toggle" class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+
+          </button>
+        </li>
+        <li><a class="header__resume btn" href="#">Resume</a></li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container">
+      <img class="hero__img" src="/my image.webp" alt="Profile picture">
+      <h2 class="hero__subtitle">Hello, It's Me Sujal</h2>
+      <h1 class="hero__title">FRONT-END WEB <br> DEVELOPER & <strong>GUITARIST</strong></h1>
+      <p class="hero__description">
+        A passionate and creative front-end web developer with a strong background in <strong>HTML, CSS, and
+          JavaScript</strong>. I have knowledge of <strong>python, java</strong> and database like
+        <strong>MySQL</strong> and some knowledge of cloud like <strong>AWS</strong>.
+      </p>
+      <a class="hero__btn btn" href="#">Reach out</a>
+    </section>
+    <section id="about" class="about container section">
+      <div class="about__content">
+        <h2>About</h2>
+        <p class="about__discription">Hi, I'm Sujal Dhole!
+          I'm a BCA student with a focus on <strong>web development, Java programming, AWS, and MySQL</strong>. I'm
+          passionate about building efficient software solutions and exploring cloud technologies. In my free time, I
+          enjoy creating guitar covers, blending my love for music and creativity.</p>
+        <p class="about__discription">All those who know me say that I'm obsessed, I think that's fair enough, I love
+          learning new things and take experience.</p>
+        <p class="about__discription">I also have a youtube channel where I post my guitar covers and I am good in music
+          production as well.</p>
+        <hr class="about__hr">
+        <h3 class="about__subtitle">Technologies</h3>
+        <div class="about__list-container">
+          <ul class="about__ul">
+            <li class="about__list">Python</li>
+            <li class="about__list">Java</li>
+            <li class="about__list">HTML</li>
+
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">CSS</li>
+            <li class="about__list">AWS</li>
+            <li class="about__list">MYSQL</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="about__img-wrapper">
+        <img class="about__img" src="/my image.webp" alt="Profile picture">
+      </div>
+
+    </section>
+    <section id="featured" class="featured container section">
+      <h3 class="featured__subtitle">Featured Project</h3>
+      <div class="featured__wrapper">
+
+        <h2 class="featured__title">Portfolio website</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+          </svg>
+
+        </a>
+      </div>
+      <p class="featured__discription">
+        "Welcome to Sujal Dhole's portfolio, featuring my work in web development, Java programming, and music. Explore
+        my projects and guitar covers, blending creativity with code."
+      </p>
+      <div class="featured__info-container">
+
+        <div>
+          <h3 class="featured__lable">Tech Stack</h3>
+          <ul class="featured__tech-stack">
+            <li class="featured__info">Java</li>
+            <li class="featured__info">Python</li>
+            <li class="featured__info">HTML</li>
+            <li class="featured__info">CSS</li>
+            <li class="featured__info">Aws</li>
+            <li class="featured__info">MySQL</li>
+            <li class="featured__info">Guitar</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__lable">Project Type</h3>
+          <p class="featured__info">Java Developer</p>
+        </div>
+        <div>
+          <h3 class="featured__lable">Timeline</h3>
+          <p class="featured__info">October 2024</p>
+        </div>
+      </div>
+      <div class="featured__img-container">
+
+        <div class="featured__img-wrapper">
+          <img src="/localhost_5173_.png" alt="Header-section">
+
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/localhost_5173_ (1).png" alt="Hero-section">
+
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/amzclone.png" alt="Header-section">
+
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/amzclone2.png" alt="Hero-section">
+
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact container section">
+      <h2 class="contact__title">Get in contact</h2>
+      <p class="contact__discription">
+        Feel free to reach out to discuss potential collaborations, projects, or any inquiries. I’d love to connect!
+      </p>
+      <div class="btn__container">
+
+        <a class="contact_btn btn" style="transform: translateX(80px); " href="mailto:sujaldhole47@gmail.com " target="_blank">Contact Me</a>
+        <a class="contact_btn btn" href="https://www.linkedin.com/in/sujal-dhole-7656ba327/ " target="_blank">LinkedIn</a>
+        <a class="contact_btn btn" style="transform: translateX(80px);" href="https://github.com/Sujaldhole369" target="_blank">Git Profile</a>
+        <a class="contact_btn btn" href="https://www.instagram.com/sujal_dhole_369/" target="_blank">Instagram</a>
+      </div>
+      Email: [sujaldhole47@gmail.com]
+      <br>
+      Phone: +91 [8530149384]
+
+    </section>
+
+    <footer class="footer container section">
+      <h3 class="footer__title"> ~Sujal Dhole~</h3>
+
+    </footer>
+
+
+
+
+    <script type="module" src="./src/main.js"></script>
+    <!-- <div id="app"></div> -->
+
+
+
+
+
+</body>
+
+</html>
